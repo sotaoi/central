@@ -19,6 +19,4 @@ Homestead.yaml
 
 #
 
-/storage/*
-!/storage/.gitignore
 /keys.json
