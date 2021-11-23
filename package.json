@@ -1,0 +1,27 @@
+{
+  "name": "@sotaoi/central",
+  "private": false,
+  "version": "1.0.0",
+  "scripts": {
+    "no_scripts:only_signal": "echo 'only ./signal'"
+  },
+  "devDependencies": {
+    "@sotaoi/central": "file:./",
+    "@types/express": "^4.17.1",
+    "@types/node": "^14",
+    "@types/yargs": "^16.0.4"
+  },
+  "dependencies": {
+    "@sotaoi/config": "^0.9.7",
+    "@sotaoi/signal": "^1.0.0",
+    "command-exists": "^1.2.9",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.17.1",
+    "express-form-data": "^2.0.17",
+    "express-rate-limit": "^5.2.6",
+    "express-session": "^1.17.2",
+    "forever": "^4.0.1",
+    "nodemon": "^2.0.4",
+    "yargs": "^16.1.1"
+  }
+}

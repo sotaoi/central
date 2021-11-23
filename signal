@@ -1,0 +1,22 @@
+#!/bin/bash
+
+SCRIPT_PATH="$( cd -P "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
+
+COMMAND_ARG=$1
+
+if [[ $COMMAND_ARG == "" ]]; then
+  node ./console/signal.js ""
+  exit 0
+fi
+
+case $COMMAND_ARG in
+
+  bambi)
+    echo ">> Build and Migrate Branch Infrastructure <<"
+    ./signal reload
+    ;;
+
+  *)
+    node ./lib/console/signal.js "$@"
+    ;;
+esac

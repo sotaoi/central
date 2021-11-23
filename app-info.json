@@ -1,0 +1,15 @@
+{
+  "environment": "%{ENVIRONMENT}%",
+  "appSecret": "%{APP_SECRET}%",
+  "url": "%{APP_URL}%",
+  "name": "%{APP_NAME}%",
+  "port": "%{PORT}%",
+  "nodeTlsRejectUnauthorized": "%{NODE_TLS_REJECT_UNAUTHORIZED}%",
+  "logPath": "%{LOG_PATH}%",
+  "sslMaintainer": "%{SSL_MAINTAINER}%",
+  "sslCert": "%{SSL_CERT}%",
+  "sslKey": "%{SSL_KEY}%",
+  "sslCa": "%{SSL_CA}%",
+  "sslChain": "%{SSL_CHAIN}%",
+  "sslFullchain": "%{SSL_FULLCHAIN}%"
+}
