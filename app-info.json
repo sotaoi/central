@@ -4,6 +4,7 @@
   "url": "%{APP_URL}%",
   "name": "%{APP_NAME}%",
   "port": "%{PORT}%",
+  "redirectFromPort": "%{REDIRECT_FROM_PORT}%",
   "nodeTlsRejectUnauthorized": "%{NODE_TLS_REJECT_UNAUTHORIZED}%",
   "logPath": "%{LOG_PATH}%",
   "sslMaintainer": "%{SSL_MAINTAINER}%",
