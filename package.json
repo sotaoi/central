@@ -1,6 +1,6 @@
 {
   "name": "@sotaoi/central",
-  "private": false,
+  "private": true,
   "version": "1.0.0",
   "scripts": {
     "no_scripts:only_signal": "echo 'only ./signal'"
