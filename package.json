@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@sotaoi/config": "^0.9.7",
-    "@sotaoi/signal": "^1.0.0",
+    "@sotaoi/signal": "^1.0.5",
     "command-exists": "^1.2.9",
     "cookie-parser": "^1.4.6",
     "cross-fetch": "^3.1.4",
